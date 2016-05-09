@@ -26,6 +26,16 @@ public class Operador implements Serializable {
     @Column(name="ID_PESSOAS")
     private Long idPessoas;
 
+    public Operador(){
+
+    }
+
+    public Operador(String nome, String senha2, Long idPessoas) {
+        this.nome = nome;
+        this.senha2 = senha2;
+        this.idPessoas = idPessoas;
+    }
+
     public Long getId() {
         return id;
     }

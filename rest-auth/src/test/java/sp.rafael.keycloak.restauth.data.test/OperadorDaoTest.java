@@ -43,5 +43,12 @@ public class OperadorDaoTest {
         assertNotNull(operador);
     }
 
+    @Test
+    public void deveTrazerPeloUsername(){
+        final String username = "rafael souza";
+        Operador ope = dao.obterPeloNome(username);
+        assertNotNull(ope);
+    }
+
 
 }
