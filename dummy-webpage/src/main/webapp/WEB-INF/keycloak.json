@@ -1,0 +1,8 @@
+{
+    "realm": "Operador Realm",
+    "realm-public-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoMtyqiYwqcuS91RQYqvlQCW77AHRbD1LL+a03hdd2r48UFOV5XXVbI/r0YlwETET4rERn+bw/K1uM83tqM7UahnLEzcPy7wrKLLAmJxEFWsuz12EFm99uOBkhcshCWefEnN2WJ6oHkYMIQEoXiuWHYqpLY802jWsyQwuHrvKFOCILXjaxzwM63YkNj/8Plgw4AAGYoIFmfM9HtkfspxGUdgk26wLLeJnkumPCJbvv/a8lwIHNE1A5TI5JklDLZUQDBozyyYHuTjGpxuPR4y3WZIt92tXslTljfFS+k+15O0C9vrixRdJ0bQGivij+6P3GopQJB/9piARXRBR6JDQsQIDAQAB",
+    "auth-server-url": "http://localhost:8080/auth",
+    "ssl-required": "external",
+    "resource": "dummy-webpage",
+    "public-client": true
+}

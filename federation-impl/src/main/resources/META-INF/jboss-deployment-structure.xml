@@ -1,0 +1,12 @@
+<jboss-deployment-structure>
+    <deployment>
+        <exclude-subsystems>
+            <subsystem></subsystem>
+        </exclude-subsystems>
+        <exclusions>
+            <module name="org.hibernate" />
+            <module name="javax.persistence.api" />
+            <module name="org.hibernate.envers" />
+        </exclusions>
+    </deployment>
+</jboss-deployment-structure>
